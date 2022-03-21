@@ -1,7 +1,7 @@
 # test-go-plugin
 https://github.com/hashicorp/go-plugin を使ってみる
 
-四則演算をプラグイン化して起動時の演算をプラグインで指定させる。
+四則演算をプラグイン化し、起動時に使用する演算プラグインを指定して演算を行う。
 ## Example
 
 ```sh
