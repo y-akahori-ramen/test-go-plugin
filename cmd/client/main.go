@@ -39,7 +39,7 @@ func main() {
 		fmt.Println("Error:", err.Error())
 		os.Exit(1)
 	}
-	// fmt.Println(reflect.TypeOf(raw))
+
 	calculater, ok := raw.(common.Calculater)
 	if !ok {
 		fmt.Println("Error:", "type assertion failed")
