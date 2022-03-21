@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option go_package = "github.com/y-akahori-ramen/test-go-plugin/pb";
+
+message Request {
+  float rhs = 1;
+  float lhs = 2;
+}
+
+message Reply {
+  float result = 1;
+}
+
+service Calculater {
+  rpc Calculate(Request) returns (Reply);
+}
