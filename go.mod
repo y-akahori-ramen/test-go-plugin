@@ -3,10 +3,15 @@ module github.com/y-akahori-ramen/test-go-plugin
 go 1.18
 
 require (
+	github.com/hashicorp/go-plugin v1.4.3
+	google.golang.org/grpc v1.45.0
+	google.golang.org/protobuf v1.26.0
+)
+
+require (
 	github.com/fatih/color v1.7.0 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/hashicorp/go-hclog v0.14.1 // indirect
-	github.com/hashicorp/go-plugin v1.4.3 // indirect
 	github.com/hashicorp/yamux v0.0.0-20180604194846-3520598351bb // indirect
 	github.com/mattn/go-colorable v0.1.4 // indirect
 	github.com/mattn/go-isatty v0.0.10 // indirect
@@ -16,6 +21,4 @@ require (
 	golang.org/x/sys v0.0.0-20200323222414-85ca7c5b95cd // indirect
 	golang.org/x/text v0.3.0 // indirect
 	google.golang.org/genproto v0.0.0-20200526211855-cb27e3aa2013 // indirect
-	google.golang.org/grpc v1.45.0 // indirect
-	google.golang.org/protobuf v1.26.0 // indirect
 )
